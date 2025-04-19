@@ -14,8 +14,9 @@ import MapFunction from "./MapFunction";
 import Clock from "./Clock";
 import NestedLoop from "./assets/NestedLoop";
 import CounterComponent from "./CounterComponent";
-import { useState } from "react";
+import React, { useState } from "react";
 import UserCard from "./UserCard";
+import ReactForm from "./Components/ReactForm";
 
 function App() {
 
@@ -47,7 +48,8 @@ function App() {
       {/* < CounterComponent  count = {count}  />
       <button onClick = {() => setCount(count + 1)}>Click Me</button> */}
 
-        < UserCard />
+        {/* < UserCard /> */}
+      < ReactForm />
 
     </div>
   );
